@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAROUSEL</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="slider">
-           <img class="slide" src="img/01.webp" alt="">
+    <div id="container">
+        <div id="slider">
+            <img class="slide" src="img/01.webp" alt="Spiderman">
+            <img class="slide hidden" src="img/02.webp" alt="Spiderman">
+            <img class="slide hidden" src="img/03.webp" alt="Spiderman">
+            <img class="slide hidden" src="img/04.webp" alt="Spiderman">
+            <img class="slide hidden" src="img/05.webp" alt="Spiderman">
+            <div class="button" id="btnBack">
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="button" id="btnNext">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+        <div class="preview-container">
+            <div class="preview selected">
+                <img src="img/01.webp" alt="">
+            </div>
+            <div class="preview selected">
+                <img src="img/02.webp" alt="">
+
+            </div>
+            <div class="preview selected">
+                <img src="img/03.webp" alt="">
+
+            </div>
+            <div class="preview selected">
+                <img src="img/04.webp" alt="">
+            </div>
+            <div class="preview selected">
+                <img src="img/05.webp" alt="">
+            </div>
         </div>
     </div>
 
